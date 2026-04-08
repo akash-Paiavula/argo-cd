@@ -6,11 +6,11 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/Ruchitbomboji/argocd-applications.git
+        repoURL: https://github.com/akash-Paiavula/argo-cd.git
         revision: main
         directories:
-          - path: datastore-be
-          - path: datastore-fe
+          - path: DataStore
+          - path: DataStoreFront
 
   template:
     metadata:
@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/Ruchitbomboji/Kubernetes.git
+        repoURL: https://github.com/akash-Paiavula/repos.git
         targetRevision: main
         path: '{{path.basename}}'
 
