@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Ruchitbomboji/Kubernetes.git
+    repoURL: https://github.com/akash-Paiavula/repos.git
     targetRevision: main
-    path: datastore-fe
+    path: DataStoreFront
   destination:
     server: https://kubernetes.default.svc
     namespace: default
